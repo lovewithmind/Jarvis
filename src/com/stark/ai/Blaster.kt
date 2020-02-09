@@ -1,7 +1,7 @@
 package com.stark.ai
 
-class Blaster(val energyValue: Int) {
-    fun fire(){
+class Blaster(private val energyValue: String) {
+    fun fire() {
         print(energyValue)
     }
 }
