@@ -56,8 +56,26 @@ Output `99099999`
 
 Extension Dimension 2
 ------------------------------------------
-WILL UPDATE SOON
+The third portal made by Loki is a powerful one and its even harder to destroy. Loki has found that the
+portal destroyed by Iron man was destroyed by a very powerful blaster with energy value more than the portal. So, loki designed the
+new portal in such a way that the energy required to destroy the new dimension portal will be less. 
+But its not that straight forward and there are some rules needed to be followed by Jarvis to determine the exact energy value to destroy the new portal.
+So, if the portal field value is `F` than Jarvis has to find out count of all the numbers formed by `1` and `0` that is less
+than the portal field.
 
+So if the portal field is `103` the energy required to destroy the portal is `7`.
+
+Example:  
+Input `103`
+
+Output `7`
+
+Explanation:
+All the number formed by `0` and `1` less than 103 are
+`1, 10, 11, 110, 101, 100, 111`
+
+
+*GO, AVENGERS !!* 
 
 Hint
 ------------------------------------------
